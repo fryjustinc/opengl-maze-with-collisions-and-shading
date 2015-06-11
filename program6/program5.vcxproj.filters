@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Glew">
+      <UniqueIdentifier>{bce14c85-61aa-4178-82ae-3e4211d9b83a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\simple.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\simple.frag">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glew\glew.c">
+      <Filter>Glew</Filter>
+    </ClCompile>
+    <ClCompile Include="program6.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glew\glew.h">
+      <Filter>Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\glxew.h">
+      <Filter>Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\wglew.h">
+      <Filter>Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="GLHelper.h" />
+    <ClInclude Include="Maze.h" />
+    <ClInclude Include="MazeModel.h" />
+    <ClInclude Include="RenderEngine.h" />
+    <ClInclude Include="ShaderManager.h" />
+  </ItemGroup>
+</Project>
